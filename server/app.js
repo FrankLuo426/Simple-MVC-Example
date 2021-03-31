@@ -1,3 +1,6 @@
+/* eslint-disable no-console */
+/* eslint-disable no-multiple-empty-lines */
+/* eslint-disable no-trailing-spaces */
 // import libraries
 const path = require('path');
 const express = require('express');
@@ -18,7 +21,7 @@ const mongooseOptions = {
   useNewUrlParser: true, 
   useUnifiedTopology: true,
   useCreateIndex: true,
-}
+};
 
 mongoose.connect(dbURL, mongooseOptions, (err) => {
   if (err) {

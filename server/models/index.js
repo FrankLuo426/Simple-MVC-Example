@@ -1,4 +1,6 @@
+/* eslint-disable no-trailing-spaces */
 module.exports.Cat = require('./Cat.js');
+module.exports.Dog = require('./Dog.js');
 
 // index.js gets automatically pulled when 
 // a folder is required. We use this to our 
